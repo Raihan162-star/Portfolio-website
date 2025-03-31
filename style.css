@@ -1,0 +1,93 @@
+body{
+
+background-color: rgb(32, 32, 32);
+}
+
+
+
+.nav {
+display: flex;
+justify-content: center; 
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+gap: 0PX;
+background-color: #573758;
+height: 40px;
+}
+
+.nav a {
+text-decoration: none;
+padding: 10px 15px;
+background-color: rgb(85, 47, 109);
+color: white;
+border-radius: 12px;
+}
+
+.nav a:hover {
+background-color: rgb(44, 44, 44);
+}
+
+
+.About{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+height:40vh;
+}
+
+
+
+#Name{
+font-size: 3em;
+font-weight: 900;
+color: #fdfbfb;
+font-family: sans-serif;
+text-shadow: 2px 2px 5px rgb(182, 29, 123);
+}
+
+#Occupation
+{
+font-size: 2em;
+margin: -0.1em;
+margin-top: -015px;
+color: #6e6e6e;
+}
+
+.Description{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 100%;
+}
+
+
+#Description1
+{
+font-size: 20px;
+left: 0;
+right:0;
+top: 0;
+text-align: center;
+position:relative;
+color:rgb(248, 248, 248)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
